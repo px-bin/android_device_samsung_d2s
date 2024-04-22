@@ -1,4 +1,4 @@
-# Firmware for model SM-N975F - from Samsung package version N975FXXS8HWA1
+# Firmware for model SM-N975F - from Samsung package version N975FXXS9HWHA
 
 cm.bin_SM-N975F
 dqmdbg.img_SM-N975F
