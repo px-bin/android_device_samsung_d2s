@@ -14,7 +14,7 @@ git clone https://github.com/ProjectElixir-Devices/android_device_samsung_exynos
 echo 'Cloning Device Tree [3/7]'
 # Device tree for d2s
 rm -rf device/samsung/d2s
-git clone https://github.com/ProjectElixir-Devices/android_device_samsung_d2s device/samsung/d2s
+git clone https://github.com/px-bin/android_device_samsung_d2s -b 15 device/samsung/d2s
 
 echo 'Cloning Vendor Trees [4/7]'
 # Vendor blobs for d2s
