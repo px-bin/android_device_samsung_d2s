@@ -9,7 +9,7 @@ git clone --depth=1 https://github.com/Infinity-X-Project/android_kernel_samsung
 echo 'Cloning Common Tree [2/7]'
 # Common tree for exynos9820-common
 rm -rf device/samsung/exynos9820-common
-git clone https://github.com/ProjectElixir-Devices/android_device_samsung_exynos9820-common -b ELIXIR-15 device/samsung/exynos9820-common
+git clone https://github.com/px-bin/android_device_samsung_exynos9820-common -b 15 device/samsung/exynos9820-common
 
 echo 'Cloning Device Tree [3/7]'
 # Device tree for d2s
