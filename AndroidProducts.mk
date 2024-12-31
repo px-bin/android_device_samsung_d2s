@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/crdroid_d2s.mk
+    $(LOCAL_DIR)/lineage_d2s.mk
 
 COMMON_LUNCH_CHOICES := \
-    crdroid_d2s-eng \
-    crdroid_d2s-user \
-    crdroid_d2s-userdebug
+    lineage_d2s-eng \
+    lineage_d2s-user \
+    lineage_d2s-userdebug
