@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The aospOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_d2s.mk
+    $(LOCAL_DIR)/crdroid_d2s.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_d2s-eng \
-    aosp_d2s-user \
-    aosp_d2s-userdebug
+    crdroid_d2s-eng \
+    crdroid_d2s-user \
+    crdroid_d2s-userdebug
