@@ -24,6 +24,9 @@ DEVICE_PATH := device/samsung/d2s
 ## Display
 TARGET_SCREEN_DENSITY := 560
 
+## Fingerprint
+TARGET_SEC_FP_REQUEST_FORCE_CALIBRATE := true
+
 ## Kernel
 TARGET_KERNEL_CONFIG := exynos9820-d2s_defconfig
 

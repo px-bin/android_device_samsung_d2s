@@ -39,18 +39,21 @@ TARGET_SCREEN_WIDTH := 1440
 ## Inherit some common crDroid stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# crDroid Stuff
+#crDroid flags
 IS_PHONE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BUILD_APERTURE_CAMERA := true
+FORCE_LAWNCHAIR := true
 BUILD_USERNAME := PX-0
 BUILD_HOSTNAME := crDroid
 TARGET_INCLUDE_STOCK_ACORE := false
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_SUPPORTS_BLUR := true
+TARGET_HAS_UDFPS := true
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_d2s
