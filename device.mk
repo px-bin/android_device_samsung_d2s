@@ -33,5 +33,10 @@ TARGET_DISABLE_MATLOG := true
 #Sign Builds
 -include vendor/lineage-priv/keys/keys.mk
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/display_id_4633128672291735937.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4633128672291735937.xml
+
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
