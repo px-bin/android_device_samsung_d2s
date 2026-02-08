@@ -1,4 +1,11 @@
 <mixer>
+    <ctl name="ABOX PCM ext APCALL BUFFTYPE" value="0" />
+    <ctl name="ABOX ERAP info Mute Primary" value="0" />
+    <ctl name="ABOX Spk AmpL Power" value="0" />
+    <ctl name="ABOX Spk AmpR Power" value="0" />
+    <ctl name="ABOX Spk AmpL Switch" value="0" />
+    <ctl name="ABOX Spk AmpR Switch" value="0" />
+    
 	<!-- These paths are for Star with Exynos9820 -->
 
 	<!-- Board Device Connections -->
@@ -633,7 +640,9 @@
 		<ctl name="Right PCM Source" value="DSP" />
 		<ctl name="Right Boost Enable" value="Enabled" />
 		<ctl name="Right AMP Enable Switch" value="1" />
-	</path>
+        <ctl name="ABOX Spk AmpL Power" value="1" />
+        <ctl name="ABOX Spk AmpR Power" value="1" />
+    </path>
 
 	<path name="dev-speaker2">
 		<ctl name="Left ASPTX1 Slot Position" value="0" />
@@ -647,7 +656,9 @@
 		<ctl name="Left PCM Source" value="DSP" />
 		<ctl name="Left Boost Enable" value="Enabled" />
 		<ctl name="Left AMP Enable Switch" value="1" />
-	</path>
+        <ctl name="ABOX Spk AmpL Power" value="1" />
+        <ctl name="ABOX Spk AmpR Power" value="1" />
+    </path>
 
 	<path name="dev-dual-speaker">
 		<ctl name="Left ASPTX1 Slot Position" value="0" />
@@ -673,7 +684,9 @@
 		<ctl name="Right PCM Source" value="DSP" />
 		<ctl name="Right Boost Enable" value="Enabled" />
 		<ctl name="Right AMP Enable Switch" value="1" />
-	</path>
+        <ctl name="ABOX Spk AmpL Power" value="1" />
+        <ctl name="ABOX Spk AmpR Power" value="1" />
+    </path>
 
 	<path name="dev-fm_radio-input">
 		<ctl name="ASRC1IN1L Input 1" value="IN2L" />
@@ -4092,9 +4105,9 @@
 
 	<!-- communication input volume -->
 	<path name="gain-communication-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-communication-speaker-mic">
@@ -4150,9 +4163,9 @@
 
 	<!-- samsung voip fmc input volume -->
 	<path name="gain-samsung_voip_fmc-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-samsung_voip_fmc-speaker-mic">
@@ -4192,9 +4205,9 @@
 
 	<!-- wificall nb input volume -->
 	<path name="gain-wificall_nb-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-wificall_nb-speaker-mic">
@@ -4234,9 +4247,9 @@
 
 	<!-- wificall wb input volume -->
 	<path name="gain-wificall_wb-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-wificall_wb-speaker-mic">
@@ -4276,9 +4289,9 @@
 
 	<!-- wificall evs input volume -->
 	<path name="gain-wificall_evs-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-wificall_evs-speaker-mic">
@@ -4318,9 +4331,9 @@
 
 	<!-- Video call input volume -->
 	<path name="gain-video_call-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-video_call-speaker-mic">
@@ -4361,9 +4374,9 @@
 	<!-- CP Call Input volume -->
 	<!-- NB volume -->
 	<path name="gain-incall_nb-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-incall_nb-speaker-mic">
@@ -4400,9 +4413,9 @@
 
 	<!-- WB volume -->
 	<path name="gain-incall_wb-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-incall_wb-speaker-mic">
@@ -4439,9 +4452,9 @@
 
 	<!-- VoLTE CP NB input volume -->
 	<path name="gain-volte_cp_nb-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-volte_cp_nb-speaker-mic">
@@ -4478,9 +4491,9 @@
 
 	<!-- VoLTE CP WB input volume -->
 	<path name="gain-volte_cp_wb-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-volte_cp_wb-speaker-mic">
@@ -4517,9 +4530,9 @@
 
 	<!-- EVS Input volume -->
 	<path name="gain-volte_cp_evs-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-volte_cp_evs-speaker-mic">
@@ -4556,9 +4569,9 @@
 
 	<!-- VoLTE VT CP NB input volume -->
 	<path name="gain-volte_vt_cp_nb-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-volte_vt_cp_nb-speaker-mic">
@@ -4595,9 +4608,9 @@
 
 	<!-- VoLTE VT CP WB input volume -->
 	<path name="gain-volte_vt_cp_wb-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-volte_vt_cp_wb-speaker-mic">
@@ -4634,9 +4647,9 @@
 
 	<!-- EVS VT Input volume -->
 	<path name="gain-volte_vt_cp_evs-handset-mic">
-		<ctl name="IN3R Digital Volume" value="148" />
-		<ctl name="IN4R Digital Volume" value="148" />
-		<ctl name="IN1R Digital Volume" value="148" />
+		<ctl name="IN3R Digital Volume" value="155" />
+		<ctl name="IN4R Digital Volume" value="155" />
+		<ctl name="IN1R Digital Volume" value="155" />
 	</path>
 
 	<path name="gain-volte_vt_cp_evs-speaker-mic">
@@ -4915,4 +4928,3 @@
 		<ctl name="IN4R Digital Volume" value="130" />
 	</path>
 </mixer>
-
